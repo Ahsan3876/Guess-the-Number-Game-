@@ -1,0 +1,51 @@
+.upper-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 6px;
+}
+.start-game-button{
+    height: 34px;
+    width: 120px;
+    background-color: brown;
+    color: beige;
+}
+.input{
+    width: 220px;
+    height: 24px;
+    font-size: 24px;
+}
+.lower-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.start-game-button:disabled{
+cursor: not-allowed;
+background-color: rgb(189, 100, 100);
+}
+.Submit-button:disabled{
+    cursor: not-allowed;
+background-color: rgb(189, 100, 100);
+}
+.lower-section{
+    display: flex;
+    flex-direction: column;
+}
+.Submit-button{
+    background-color: brown;
+    color: beige;
+}
+/* .guess-comments{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+} */
